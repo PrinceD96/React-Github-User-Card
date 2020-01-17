@@ -25,9 +25,12 @@ class App extends React.Component {
 		return (
 			<div className='App'>
 				<header>
-					<img width='150' src={logo} alt='logo' />
+					<img src={logo} alt='logo' />
+					<h1>User Page!</h1>
 				</header>
-				<UserCard state={this.state} />
+				<div className='card-list'>
+					<UserCard state={this.state} />
+				</div>
 			</div>
 		);
 	}
