@@ -1,8 +1,9 @@
 body {
-	background: linear-gradient(141deg, #9fb8ad 0%, #3fc96d 51%, #3cc72a 75%);
+	background: linear-gradient(141deg, #9fb8ad 0%, #30e3ca 51%, #21e6c1 75%);
 	background-repeat: no-repeat;
 	background-size: cover;
-	height: 100vh;
+	height: 100%;
+	min-height: 100vh;
 	line-height: 1;
 
 	.App {
