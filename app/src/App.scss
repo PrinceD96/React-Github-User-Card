@@ -1,0 +1,54 @@
+body {
+	background: linear-gradient(141deg, #9fb8ad 0%, #30e3ca 51%, #21e6c1 75%);
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 100%;
+	min-height: 100vh;
+	line-height: 1;
+
+	.App {
+		box-sizing: border-box;
+		text-align: center;
+	}
+
+	header {
+		// border: 2px solid salmon;
+		display: flex;
+		flex-flow: row wrap;
+		justify-content: center;
+		margin: 20px 0;
+
+		img {
+			// border: 2px solid darkgreen;
+			width: 100px;
+		}
+
+		h1 {
+			// border: 1px solid darkblue;
+			text-align: left;
+			margin-left: 20px;
+		}
+	}
+
+	.card-list {
+		border: 2px solid dodgerblue;
+		display: flex;
+
+		.user-card {
+			width: 250px;
+			border: 1px solid lightcoral;
+			padding: 10px;
+			background-color: #fff;
+			box-shadow: 0 1px 6px -2px #000;
+			border-radius: 5px;
+			text-align: left;
+
+			img {
+				width: 100%;
+			}
+
+			.card-info {
+			}
+		}
+	}
+}
